@@ -1,0 +1,219 @@
+
+
+body{
+
+    font: apple-system;
+
+}
+
+
+
+label{
+
+    display: block;
+
+    font-size: 20px;
+
+    
+
+    
+
+}
+
+.account{
+
+    border: 40px solid #ccc;
+
+    background-color: #ccc;
+
+    border-radius: 20px solid grey;
+
+}
+
+input{
+
+    padding: 0.5rem 0.7rem;
+
+    margin-bottom: 2rem;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px solid #ccc;
+
+}
+
+.checkbox{
+
+    display: flex;
+
+    
+
+    
+
+}
+
+
+
+.checkbox,h5{
+
+    font-weight: 100px;
+
+}
+
+#register{
+
+    background-color: blue;
+
+    color: white;
+
+    padding: 18px;
+
+    width: 20%;
+
+    height: 2rem;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    border: 1px solid blue;
+
+    border-radius: 10px;
+
+}
+
+.other,h5{
+
+    
+
+    margin-left: 2rem;
+
+}
+
+.other{
+
+    position: relative;
+
+    width: 1rem;
+
+    height: 1rem;
+
+    border-radius: 50%;
+
+    border-left: 40px solid #FBBC05;
+
+    border-right: 40px solid #4385F6;
+
+    border-top: 40px solid #EC4336;
+
+    border-bottom: 40px solid #34A856;
+
+}
+
+.other:before {
+
+    content: '';
+
+    position: absolute;
+
+    top: -150px;
+
+    right: -150px;
+
+    border-top: 110px solid transparent;
+
+    border-right: 110px solid #fff;
+
+    border-bottom: 110px solid transparent;
+
+    border-left: 100px solid transparent;
+
+    transform: rotate(90deg);
+
+  }
+
+  .other:after {
+
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+
+    right: -45px;
+
+    width: 110px;
+
+    height: 40px;
+
+    background: #4385F6;
+
+    transform: translate(-5px, -20px);
+
+    border-bottom-right-radius: 15px;
+
+  }
+
+  .container{
+
+display: grid;
+
+grid-template-columns: 700px 500px;
+
+border: 3px solid lightgray;
+
+align-items: right;
+
+align-items: center;
+
+border: 100px solid blue;
+
+justify-content: end;
+
+align-items: stretch;
+
+justify-items: stretch;
+
+width: 120vh;
+
+background-color: rgb(244, 240, 240);
+
+
+
+border-radius: 50px;
+
+
+
+
+
+  }
+
+  .grid{
+
+
+
+    display: grid;
+
+    grid-template-columns: 100px 200px;
+
+    row-gap: 10px;
+
+    border: 40px solid transparent;
+
+    grid-template-rows: 100px 100px;
+
+    column-gap: 200px;
+
+    align-items: flex-start;
+
+    justify-content: center;
+
+    
+
+    
+
+    }
+
+    
+
+   
