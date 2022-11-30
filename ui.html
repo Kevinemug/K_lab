@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-
 <html lang="en">
+
+<link rel="stylesheet" href="index.css" type="text/css">
 
 
 
 <head>
+
+
+
+
 
     <meta charset="UTF-8">
 
@@ -12,224 +16,146 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <link href="stylee.css"rel="stylesheet" >
 
-    <link rel="stylesheet" href="ui.css">
+        <title>login</title>
+
+
 
 </head>
 
-
-
 <body>
 
-    <div class="container">
+    <div class="whole-container">
+
+        <div class="l-container">
+
+            <div class="l-message">
+
+                            <img src="./images/logo.png" class="logo" alt="">
+
+                            <span class="dot3">
+
+                                <span class="dot1">
+
+                                <span class="dot2">
 
 
 
-        <div class="grid">
+                                    <img src="./images/card.png" alt="card">
 
 
 
-            <div class="circle">
+                                </span>
 
-                <svg height="400" width="400">
+                            </span>
 
-                    <circle cx="150" cy="150" r="100" stroke="gray" stroke-width="2" fill="white" title="helo"
-
-                        style="border: 80px solid blue;" />
+                            </span>
 
 
 
-                </svg>
+                            <div style="text-align:center" class="target">
+
+                                <p>Let'see what we have new, check it out! So maybe write her something more.</p>
+
+                                <span class="line line1"></span>
+
+                                <span class="line"></span>
+
+                                <span class="line"></span>
+
+                            </div>
 
 
+
+
+
+
+
+            </div>
+
+            <div class="l-form">
+
+
+
+                            <form action="questionaire.php" method="post">
+
+                                    <div class="form-heading">
+
+                                        <h1>Create your account</h1>
+
+                                        <p>it's free and easy.</p>
+
+                                    </div>
+
+
+
+                                    <div>
+
+                                        <label for="name">Your name</label><br>
+
+                                        <input type="text" placeholder="Enter your name" name="name" required>
+
+                                    </div>
+
+                                    <div>
+
+                                        <label for="email">E-mail or phone number</label><br>
+
+                                        <input type="text" placeholder="Type your e-mail or phone number" name="email" required>
+
+                                    </div>
+
+
+
+                                    <div>
+
+                                        <label for="psw">Password</label><br>
+
+                                        <input type="password" placeholder="Type your Password" name="psw" required>
+
+                                    </div>
+
+
+
+                                    <div>
+
+                                        <a href="questionaire.html"><button type="submit" class="l-get-started">Register</button></a>
+
+                                    </div>
+
+
+
+
+
+                                    <div class="policy">
+
+                                    <input type="checkbox" class = "check" id="policy" name="policy" value="terms&conditions"><p>creating an account means you agree to the<b> Terms and Conditions</b> and our<b> Privacy Policy</b></p>
+
+                                    </div>
+
+                                    <div class="icons">
+
+                                        <img src="./images/google.png" alt="">
+
+                                        <img src="./images/apple.png" alt="">
+
+                                        <img src="./images/facebook.png" alt="">
+
+                                    </div>
+
+                            </form>
+
+                            <img src="./images/chat.png" class="chat" alt="">
 
             </div>
-
-
-
-
-
-
-
-            <div>
-
-                <div id="hours">
-
-                    <p>Total hours</p>
-
-                    <p>
-
-                    <h1>12,40</h1>
-
-                    </p>
-
-                </div>
-
-
-
-                <div>
-
-                    <p>Budget</p>
-
-                    <p>
-
-                    <h1>$2,500</h1>
-
-                    </p>
-
-                </div>
-
-                <button>super</button>
-
-                <button>great</button>
-
-                <button>purpose</button>
-
-                <div>
-
-                    <p>lets see what we have new,check it out!</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="account">
-
-            <div class="account-header">
-
-                <span>
-
-                    <h1>Create your account</h1>
-
-                </span>
-
-                <span>
-
-                    <h3>it's free and easy</h3>
-
-                </span>
-
-            </div>
-
-            <div class="account-form">
-
-
-
-                <form action="" class="form">
-
-
-
-                    <label>your name</label>
-
-                    <input type="text" id="name" placeholder="Enter your name">
-
-                    <label>E-mail or phone number</label>
-
-                    <input type="text" id="email" placeholder="E-mail or phone">
-
-                    <label>Password</label>
-
-                    <input type="password" id="pass"><br>
-
-                    must be 8 characters atleast <br><br>
-
-                    <div class="checkbox">
-
-                        <input type="checkbox">
-
-                        <span>
-
-                            <h5>By creating account means you agree to the <strong>Terms <br> and
-
-                                    Conditions,</strong>and
-
-                                our
-
-                                <strong>Privacy Policy</strong>
-
-                            </h5>
-
-                        </span>
-
-
-
-                    </div>
-
-                    <button id="register">Register</button>
-
-                </form>
-
-                <h5>or do it via other accounts</h5>
-
-
-
-                <div class="othe">
-
-                    <span>
-
-                        <i class="fa-brands fa-google"></i>
-
-                    </span>
-
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-
-
-
-
-
+    </div>
 
 </body>
 
-
-
 </html>
+
+
