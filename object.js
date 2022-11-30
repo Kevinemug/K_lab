@@ -22,6 +22,8 @@ function cheapestItem(array) {
 
     let low = array[0].price;
 
+    let lowName=array[0].name;
+
 
 
     for (let i=0; i<array.length; i++){
@@ -32,6 +34,8 @@ function cheapestItem(array) {
 
             low = array[i].price;
 
+            lowName=array[i].name;
+
         }
 
 
@@ -40,7 +44,7 @@ function cheapestItem(array) {
 
     
 
-     return `The cheapest item costs ${low}.`;
+     return `The cheapest item is ${lowName} costs ${low}.`;
 
 }
 
@@ -50,7 +54,7 @@ function expensiveItem(array) {
 
     let high = array[0].price;
 
-
+    let highname=array[0].name;
 
     for (let i=0; i<array.length; i++){
 
@@ -60,6 +64,8 @@ function expensiveItem(array) {
 
             high = array[i].price;
 
+            highname=array[i].name;
+
         }
 
 
@@ -68,7 +74,7 @@ function expensiveItem(array) {
 
     
 
-     return `The most expensive item costs ${high}.`;
+     return `The most expensive item is ${highname} costs ${high}.`;
 
 }
 
